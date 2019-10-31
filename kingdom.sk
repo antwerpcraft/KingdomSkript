@@ -1,0 +1,20 @@
+on rightclick on sign:
+	line 2 of event-block is "Antwerp":
+		add player to {Antwerp.spelers::*}
+		add player to {kingdom.spelers::*}
+		broadcast "%name of player% heeft kingdom Antwerp gejoind!"
+on rightclick on sign:
+	line 2 of event-block is "Parking":
+		add player to {parking.spelers::*}
+		add player to {kingdom.spelers::*}
+		broadcast "%name of player% heeft kingdom parking gejoind!"
+on rightclick on sign:
+	line 2 of event-block is "Beerschot":
+		add player to {Beerschot.spelers::*}
+		add player to {kingdom.spelers::*}
+		broadcast "%name of player% heeft kingdom Beerschot gejoind!"
+on rightclick on sign:
+	line 2 of event-block is "Amsterdam":
+		add player to {Amsterdam.spelers::*}
+		add player to {kingdom.spelers::*}
+		broadcast "%name of player% heeft kingdom Amsterdam gejoind!"
